@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Calculator" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize the action bar color -->
+        <item name="colorPrimary">@color/black</item>
+
+        <!-- Customize the status bar color -->
+        <item name="colorPrimaryDark">@color/black</item>
+
+        <!-- Customize the action bar text color -->
+        <item name="android:textColorPrimary">@color/white</item>
+
+        <!-- Customize the status bar icons color -->
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Customize the action bar style (optional) -->
+        <item name="android:actionBarStyle">@color/black</item>
+
+        <!-- Customize the status bar style (optional) -->
+    </style>
+
+    <!-- Define your custom action bar style (optional) -->
+    <style name="YourActionBarStyle" parent="@style/Widget.AppCompat.ActionBar">
+        <!-- Customize the action bar background color -->
+        <item name="background">@color/black</item>
+    </style>
+
+    <!-- Define your custom status bar style (optional) -->
+
+</resources>
